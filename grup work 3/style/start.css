@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Delius&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(38, 37, 37);
+    color: rgb(255, 255, 255);
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.start{
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.start:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.decoracia1{
+
+    transform: translate(-500px);
+
+}
+
+.entertaining{
+
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+.entertaining:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.buy{   
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+.buy:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.howtoplay{
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+
+.howtoplay:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.conclusion{
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+.conclusion:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.smart{
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+.smart:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.whatwiilgaimingbring{
+
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+.whatwiilgaimingbring:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.join{
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+.join:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.howcreate{
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+.howcreate:hover{
+
+    transform: scale(1.1);
+
+}
+
+.comments{
+
+    height: 60px;
+    width: 250px;
+    background-color: rgb(19, 19, 126);
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid;
+    transition: all 0.5s;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+.comments:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.divm{
+
+    margin-top: 350px;
+
+
+}

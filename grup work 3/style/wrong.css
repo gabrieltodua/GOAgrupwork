@@ -1,0 +1,14 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 56, 56);
+    flex-direction: column;
+
+}
+
+a{
+    font-size: 50px;
+
+}

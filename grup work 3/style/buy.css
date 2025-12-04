@@ -1,0 +1,25 @@
+body{
+
+    background-color: gray;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+div{
+    width: 1400px;
+    background-color: rgb(187, 187, 187);
+}
+
+button{
+    width: 500px;
+    background-color: green;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+button:hover{
+    transform: scale(1.1);
+}

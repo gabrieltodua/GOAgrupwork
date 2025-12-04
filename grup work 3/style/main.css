@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Delius&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 37, 37);;
+    height: 100vh;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-direction: column;
+}
+
+
+
+.allgame{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gameb{
+
+    height: 200px;
+    width: 200px;
+    animation-name: animacia1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.helpdiv{
+
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(145, 142, 142);
+    transition: all 0.5s ease;
+    animation-name: animacia1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.helpdiv:hover{
+
+    transform: scale(1.1);
+}
+
+
+
+
+
+@keyframes animacia1{
+
+    50%{
+
+    background-color: rgb(19, 19, 126);
+    }
+
+    100%{
+        
+    background-color: rgb(88, 88, 93);
+    }
+
+
+}
+
+
+
+
+.ecvatorr{
+
+    width: 1457px;
+    height: 50px;
+    background-color: rgb(113, 113, 113);
+
+
+}
+
+
+.report{
+
+    width: 300px;
+    height: 50px;
+    background-color: rgb(117, 0, 0);
+    border: 3px rgb(108, 102, 102) solid;
+    border-radius: 10px;
+
+}
+
+
+
+.back{
+
+    width: 300px;
+    height: 50px;
+    background-color: rgb(224, 208, 208);
+    border: 3px rgb(108, 102, 102) solid;
+    border-radius: 10px;
+
+
+}

@@ -1,0 +1,49 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(91, 88, 88);
+
+}
+
+
+
+
+.box1{
+background-color:rgb(162, 56, 56);
+border: 3px rgb(53, 52, 52) solid;
+}
+
+
+
+.box2{
+background-color:rgb(34, 34, 94);
+border: 3px rgb(53, 52, 52) solid;
+}
+
+
+
+.box3{
+background-color:rgb(62, 62, 57);
+border: 3px rgb(53, 52, 52) solid;
+}
+
+
+
+.box4{
+background-color: rgb(69, 69, 69);
+border: 3px rgb(53, 52, 52) solid;
+}
+
+
+.back{
+
+    display: flex;
+    align-self: flex-end;
+    background-color: rgb(67, 67, 70);
+    width: 100px;
+    height: 30px;
+
+}

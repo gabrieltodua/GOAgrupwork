@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(72, 31, 160);
+    gap: 10px;
+}
+
+
+
+/* 1 */
+
+
+.memephto1{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+}
+
+
+
+/* 2 */
+
+
+.memephto2{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+    
+}
+
+/* 3 */
+
+.memephto3{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+    
+}
+
+
+/* 4 */
+
+.memephto4{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+    
+}
+
+/* 5 */
+
+.memephto5{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+    
+}
+
+
+/* 6 */
+
+.memephto6{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+    
+}
+
+/* 7 */
+
+.memephto7{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+    
+}
+
+/* 8 */
+
+.memephto8{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+}
+
+/* 9 */
+
+.memephto9{
+    width: 1500px;
+    background-color: rgb(105, 102, 102);
+    
+}
+
+
+.imgmeme{
+
+    height: 200px;
+    width: 200px;
+
+}
+
+
+a{
+
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}

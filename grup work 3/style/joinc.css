@@ -1,0 +1,28 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(102, 172, 102);
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+h1{
+
+    font-size: 50px;
+
+
+
+}
+
+
+.ok{
+
+    font-size: 30px;
+    background-color: rgb(85, 132, 85);
+
+}

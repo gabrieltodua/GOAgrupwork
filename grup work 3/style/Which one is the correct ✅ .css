@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Delius&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+body {
+    text-align: center;
+    margin-top: 0;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(131, 130, 130);
+}
+
+a {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  justify-content: center;
+}
+
+
+
+
