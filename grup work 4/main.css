@@ -1,0 +1,349 @@
+/* =========================
+   BODY / PAGE LAYOUT
+========================= */
+body {
+    background-color: #6c75f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* =========================
+   WELCOME SCREEN
+========================= */
+.welcome {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    transition: all 1s ease;
+}
+
+.welcome_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+/* =========================
+   PLAY BUTTON
+========================= */
+.play_button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.play_button:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+/* =========================
+   COIN IMAGES
+========================= */
+.coin_img {
+    width: 300px;
+    height: 300px;
+}
+
+/* =========================
+   COIN BUTTONS
+========================= */
+
+/* Regular coin button */
+.coin_button {
+    background-color: #0f24e6;
+    color: #000000;
+    border-radius: 5px;
+    transition: all 1s ease;
+    border: black solid 2px;
+}
+
+.coin_button:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+/* Coin button NM */
+.coin_button_nm {
+    background-color: #0f24e6;
+    color: #000000;
+    border-radius: 5px;
+    transition: all 1s ease;
+    border: black solid 2px;
+    width: 200px;
+    height: 50px;
+}
+
+.coin_button_nm:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+/* Coin button NM1 */
+.coin_button_nm1 {
+    background-color: #ff0101;
+    color: #000000;
+    border-radius: 5px;
+    transition: all 1s ease;
+    border: black solid 2px;
+    width: 200px;
+    height: 50px;
+}
+
+.coin_button_nm1:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+/* Coin button NM2 */
+.coin_button_nm2 {
+    background-color: #78ff01;
+    color: #000000;
+    border-radius: 5px;
+    transition: all 1s ease;
+    border: black solid 2px;
+    width: 200px;
+    height: 50px;
+}
+
+.coin_button_nm2:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+
+
+/* =========================
+   HEADERS / TEXT
+========================= */
+.h1_nm {
+    margin-top: 700px;
+    margin-left: 100px;
+    transition: all 1s ease;
+}
+
+.h1_nm:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+.p1 {
+    color: white;
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+.p1:hover {
+    scale: 1.1;
+    rotate: 1deg;
+}
+
+/* =========================
+   COUNTERS
+========================= */
+#count {
+    font-size: 50px;
+    transition: all 1s ease;
+}
+
+#count:hover {
+    scale: 1.2;
+}
+
+#count1 {
+    font-size: 30px;
+    transition: all 1s ease;
+}
+
+#count1:hover {
+    scale: 1.2;
+}
+
+#count2 {
+    font-size: 30px;
+    transition: all 1s ease;
+}
+
+#count2:hover {
+    scale: 1.2;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+    transform: translate(20px);
+}
+
+#div_buy {
+    margin-top: 3150px;
+    margin-right: 200px;
+    transform: translate(-300px);
+}
+
+/* =========================
+   BUY BUTTONS (ALL 1-13)
+========================= */
+#buy1 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy1:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy2 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy2:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy3 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy3:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy4 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy4:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy5 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy5:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy6 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy6:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy7 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy7:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy8 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy8:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy9 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy9:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy10 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy10:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy11 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy11:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy12 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy12:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+#buy13 {
+    background-color: #a2a0ad;
+    transition: all 1s ease;
+}
+
+#buy13:hover {
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+.clickers {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transform: translate(-200px);
+    animation: moveSquare 6s ease infinite;
+}
+
+@keyframes moveSquare {
+    0% { transform: translate(-200px); }
+    25% { transform: translate(200px, 0); }
+    50% { transform: translate(200px, 400px); }
+    75% { transform: translate(-200px, 400px); }
+    100% { transform: translate(-200px); }
+}
