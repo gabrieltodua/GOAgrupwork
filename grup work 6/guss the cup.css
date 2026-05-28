@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Oswald:wght@200..700&family=Playwrite+NO:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10;
+    color: white;
+    background-image: url(back.avif);
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 200px;
+}
+
+
+
+button{
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 100px;
+} 
+
+/* a{
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+} */
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+#img1{
+    width: 300px;
+    height: 400px;
+
+}
+
+#img2{
+    width: 300px;
+    height: 400px;
+
+}
+
+#img3{
+    width: 300px;
+    height: 400px;
+
+}
+
+
+
+#status{
+    font-size: 30px;
+    color: white;
+    transform: translatey(150px);
+}
+
+#money{
+    font-size: 50px;
+    color: white;
+    transform: translatey(170px);
+}
+
+
+#b1{
+    cursor: pointer;
+    background-color: red;
+}
+
+#b2{
+    cursor: pointer;
+    background-color: blue;
+}
+
+#b3{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+
+
+#ball1{
+    transform: translate(100px) translatey(650px);
+}
+
+#ball2{
+    transform: translate(100px) translatey(650px);
+}
+
+#ball3{
+    transform: translate(100px) translatey(650px);
+}
