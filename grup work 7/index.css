@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=BBH+Bogle&family=Oswald:wght@200..700&family=Playwrite+NO:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(background.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px ;
+}
+
+
+#pet_name {
+    transform: translate(50px);
+    font-size: 16px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    transition: all 0.2s;
+    width: 200px;
+    text-align: center;
+}
+
+#pet_name:focus {
+    border-color: #3b82f6;
+}
+
+#dysp_pet_name {
+    transform: translate(50px);
+    font-size: 24px;
+    color: #1e293b;
+}
+
+#pet {
+    transform: translate(-100px) translatey(100px);
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+#food {
+    transform: translate(-150px) translatey(20px);
+    font-size: 20px;
+    color: #64748b;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+
+
+
+
+
+#main_food {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 450px;
+}
+
+#steak, #fish, #chicken, #eggs, #ham, #bread, #bacon, #cheese, #pizza {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.5s;
+    cursor: pointer;
+    border: 7px solid #000000;
+
+}
+
+#steak:hover, #fish:hover, #chicken:hover, #eggs:hover, #ham:hover, #bread:hover, #bacon:hover, #cheese:hover, #pizza:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px 30px rgb(0, 0, 0, 0.4);
+}
+
+
+
+#hun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.f_c{
+    font-size:50px;
+}
+
+.l_c{
+    font-size: 80px;
+}
+
+p{
+    margin: 0px;
+}
+
+
+.main_main_main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px;
+}
+
+
+.deck {
+    transform: translate(150px) translatey(-30px);
+    width: 310px;
+    height: 30px;
+    background-color: #e2e8f0;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#progres_h {
+    width: 100%;
+    height: 100%;
+    background-color: #3b82f6;
+    transform: translatey(0px);
+}
+

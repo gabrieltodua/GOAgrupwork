@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=BBH+Bogle&family=Oswald:wght@200..700&family=Playwrite+NO:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(background.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px ;
+}
+
+
+
+
+h1{
+
+    font-size: 50px;
+
+}
+
+h2{
+
+    font-size: 30px;
+
+}
+
+
+a{
+
+    color: white;
+    font-size: 30px;
+
+}
